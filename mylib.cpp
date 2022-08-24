@@ -35,9 +35,9 @@ namespace mytask1 {
 		std::cout << "Польлжительных чисел :" << positive << std::endl;
 
 	}
-	size_t input(size_t size) {
+	/*size_t input(size_t size) {
 		std::cout << "Введите количество элементов массива:" << std::endl;
 		std::cin >> size;
 		return size;
-	}
+	} функция сама про себе работает но походу не выводит или функция инициализации её не видет (0_0)\ */
 }
