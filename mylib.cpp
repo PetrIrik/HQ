@@ -1,4 +1,6 @@
 #include <iostream>
+#include "HQ.cpp"
+
 
 namespace mytask1 {
 
@@ -39,5 +41,16 @@ namespace mytask1 {
 		std::cout << "¬ведите количество элементов массива:" << std::endl;
 		std::cin >> size;
 		return size;
-	}
+	} 
 }
+
+namespace mytask2 {
+	
+	size_t input1(size_t a) {
+		std::cout << "¬ведите первое значение :" << std::endl;
+		std::cin >> a;
+		return a;
+	}
+	
+}
+
